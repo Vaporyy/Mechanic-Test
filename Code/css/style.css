@@ -1,0 +1,117 @@
+h1, p, a {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+}
+
+a {
+    text-align: center;
+    font-size: small;
+}
+
+#container{
+    height: 80vh;
+    width: 110vh;
+    border-bottom: 1px solid black;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#title{ 
+    height: 10vh;
+    line-height: 10vh;
+    width: 110vh;
+    
+}
+
+#controller_menu{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 10vh;
+    border-right: 1px solid black;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 110vh;
+    border: 1px solid black;
+}
+
+#elements{
+    display: flex;
+    flex-direction: row;
+    padding-left: 70vh;
+    justify-content: center;
+    height: 10vh;
+    width: 50vh;
+}
+
+#play_area{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vh;
+    border: 1px solid white;
+}
+
+#brush_size_menu{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    float: right;
+    height: 80Vh;
+    width: 10vh;
+    border-left: 1px solid black;
+}
+
+
+
+.button{
+    width:7vh;
+    height:7vh;
+    background-color: darkgray;
+    margin: 1.5vh;
+    line-height: 7vh;
+}
+
+.button:hover{
+    outline: 5px solid black;
+}
+
+#ele_water{
+    background-color: skyblue;
+}
+
+#ele_fire{
+    background-color: firebrick;
+}
+
+#ele_earth{
+    background-color: brown;
+}
+
+#ele_acid{
+    background-color:yellow;
+}
+
+#ele_oil{
+    background-color: gold;
+}

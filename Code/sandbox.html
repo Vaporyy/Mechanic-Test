@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sandbox</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/sandbox.js"></script>
+</head>
+
+<body>
+    <div id = "container">
+        <div id = "title">
+            <h1>Sandbox</h1>
+        </div>
+
+        <div id = "content">
+            <div id = "controller_menu">
+                <div class = "controller button" data-tool = "pause"><p>P</p></div>
+                <div class = "controller button" data-tool = "reset"><p>R</p></div>
+            </div>
+        
+            <div id = "play_area">
+                <canvas id = "element_area"></canvas>
+            </div>
+
+            <div id = "brush_size_menu">
+                <div class = "toolselector button" data-tool = "small_brush"><p>S</p></div>
+                <div class = "toolselector button" data-tool = "medium_brush"><p>M</p></div>
+                <div class = "toolselector button" data-tool = "large_brush"><p>L</p></div>
+            </div>
+
+
+        </div>
+        
+    </div>
+</body>
+
+<section>
+    <div id ="elements">
+        <div class = "element selector button" id = "ele_water"><p>W</p></div>
+        <div class = "element selector button" id = "ele_fire"><p>F</p></div>
+        <div class = "element selector button" id = "ele_earth"><p>E</p></div>
+        <div class = "element selector button" id = "ele_acid"><p>A</p></div>
+        <div class = "element selector button" id = "ele_oil"><p>O</p></div>
+    </div>
+</section>
+</html>
